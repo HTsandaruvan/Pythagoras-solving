@@ -41,11 +41,11 @@ B = ${Math.sqrt(c * c - a * a).toFixed(2)}`;
             }
         } else if (!c && a && b) {
             const calc = `C = √(${a} * ${a} + ${b} * ${b})
-C = √(${a * a} + ${b * b})
-C = √${a * a + b * b}
-C = ${Math.sqrt(a * a + b * b).toFixed(2)}`;
-            setSolution(calc)
-            setValC(Math.sqrt(a * a + b * b).toFixed(2))
+    C = √(${a * a} + ${b * b})
+    C = √${a * a + b * b}
+    C = ${Math.sqrt(a * a + b * b).toFixed(2)}`;
+            setValC(Math.sqrt(a * a + b * b).toFixed(2));
+            setSolution(calc);
         } else if (c && a && b) {
             setError("Please leave 1 side empty.")
         } else if (!c && !a && !b) {
