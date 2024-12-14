@@ -1,9 +1,11 @@
-import Triangle from "./Components/Triangle";
+import SolvingForm from "./Components/Solving-Form";
+
 
 export default function Home() {
   return (
-    <div className='flex justify-center items-center'>
-      <Triangle />
+    <div className='min-h-screen'>
+
+      <SolvingForm />
     </div>
   )
 }
