@@ -45,7 +45,7 @@ C = √(${a * a} + ${b * b})
 C = √${a * a + b * b}
 C = ${Math.sqrt(a * a + b * b).toFixed(2)}`;
             setSolution(calc)
-            setValC(Math.sqrt(a * a + a * a).toFixed(2))
+            setValC(Math.sqrt(a * a + b * b).toFixed(2))
         } else if (c && a && b) {
             setError("Please leave 1 side empty.")
         } else if (!c && !a && !b) {
